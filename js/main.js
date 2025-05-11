@@ -151,7 +151,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
   const ucapan = this.ucapan.value.trim();
   const konfirmasi = this.konfirmasi.value;
 
-  const noWa = "6282210806866"; // Ganti dengan nomor WhatsApp kamu
+  const noWa = "6283846027533"; // Ganti dengan nomor WhatsApp kamu
   const pesan = `Halo, saya ${nama}%0A%0A"${ucapan}"%0A%0AKonfirmasi kehadiran: ${konfirmasi}`;
 
   window.open(`https://wa.me/${noWa}?text=${pesan}`, "_blank");
